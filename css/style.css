@@ -70,7 +70,7 @@ body{
 	background-size: auto;
 	background-repeat: repeat;
 	background-position: center;
-	color: white;
+	color: #FF4514;
 }
 
 #home h1{
@@ -175,53 +175,43 @@ font-size: 25px;
 }
 
 
-.titulo2{
-	font-size: 80px;
-	font-weight: 700;
-	color: #ff4514;
-}
 
-.iconos{
-	width: 30px;
-}
-
-.iconostext{
-	font-size: 15px;
-}
-
-#watch{
-	background-image: url(../img/bg-sky.png);
-	background-repeat: repeat-x;
-}
-
-.img-80{
-	max-width: 80%;
-}
-
-.watches img{
-	max-width: 50%;
-	align-items: center;
-}
-
-#apps{
-	background-image: url( ../img/bg-snow.png);
-	background-size: auto;
-	background-repeat: repeat;
+#schedule{
+	background-image: url(../img/bg-schedule.jpg);
+	background-repeat: no-repeat;
 	background-position: center;
+	background-size: cover;
+	text-align: center;
+	padding: 50px;
 }
 
-.padtoop{
- padding-top: 18%;	
+
+
+#schedule h2{
+	border: 1px solid  #d9d9d9;
+	background-color: white;
+	padding: 10px 10px;
 }
 
-#apps .subtitle{
-	color: white;
-	
+#schedule  h1,h6,h2{
+	color:#191919;
 }
 
-#apps label{
-	color: white;
+
+#schedule h6{
+	font-size: 18px;
 }
+
+.heading{
+	text-align: center;
+	font-size: 50px;
+	font-weight:700;
+	margin-bottom: 3%;
+	color:#191919;
+}
+
+
+
 
 footer{
 	background-color: #000000;
